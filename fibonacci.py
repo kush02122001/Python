@@ -1,0 +1,12 @@
+n = int(input("Enter the number of times you want to do the loop : "))
+x = 0
+y = 1
+sum = 0
+count = 1
+print("Fibonacci Series: ", end = " ")
+while(count <= n):
+  print(sum, end = " ")
+  count += 1
+  x = y
+  y = sum
+  sum =  x + y
